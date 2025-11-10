@@ -1,0 +1,23 @@
+Challenge 4: Fitness App Calorie Tracker
+Scenario:
+A fitness app records calories consumed and burned. 
+The goal is to calculate the net calorie balance and determine 
+if the user has met their calorie deficit goal.
+
+Requirements & Logic:
+Input: Calories consumed (int) and calories burned (int).
+Calculation: net_calories = consumed - burned
+Boolean: goal_achieved = net_calories < 2000
+Output: Display net calories and goal status.
+
+Challenge 5: Ride-Sharing Fare Estimator
+Scenario:
+A ride-sharing company needs a Python script to calculate the 
+fare based on distance and determine if the fare exceeds a premium 
+ride threshold.
+
+Requirements & Logic:
+Input: Distance in km (float) and rate per km (float).
+Calculation: fare = distance * rate
+Boolean: is_premium = fare > 500
+Output: Display fare and premium status.

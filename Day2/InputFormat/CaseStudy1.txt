@@ -1,0 +1,49 @@
+Challenge 2: Shopping Cart Calculator 
+
+Problem:
+
+To build a simple Menu driven that:
+Lets the user select products from a menu
+Calculates the total cost based on chosen items
+Applies a 10% discount if the total cost is more than 100
+
+Display a Product Menu
+The program shows a list of available products with fixed prices.
+Example:
+Notebook – $30
+Pen – $10
+Bag – $75
+The user can choose what they want to buy by entering the item number.
+
+===== Welcome to Python Store  =====
+
+===== PRODUCT MENU =====
+1. Notebook - $30.00
+2. Pen       - $10.00
+3. Bag       - $75.00
+4. Checkout and Exit
+Select a product (1-4): 1
+Enter quantity of Notebook: 2
+Added 2 x Notebook(s) = $60.00
+
+===== PRODUCT MENU =====
+1. Notebook - $30.00
+2. Pen       - $10.00
+3. Bag       - $75.00
+4. Checkout and Exit
+Select a product (1-4): 3
+Enter quantity of Bag: 1
+Added 1 x Bag(s) = $75.00
+
+===== PRODUCT MENU =====
+1. Notebook - $30.00
+2. Pen       - $10.00
+3. Bag       - $75.00
+4. Checkout and Exit
+Select a product (1-4): 4
+
+===== BILL SUMMARY =====
+Cart Total     : $135.00
+Discount (10%) : $13.50
+Final Amount   : $121.50
+Thank you for shopping with us! 

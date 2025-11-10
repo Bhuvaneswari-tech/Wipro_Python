@@ -1,0 +1,22 @@
+Challenge 2: Student Performance Tracker
+Scenario:
+A school wants to calculate the average marks of a student and 
+determine if the student qualifies for a merit certificate.
+
+Requirements & Logic:
+Input: Marks in 3 subjects (float).
+Calculation: average = (m1 + m2 + m3) / 3
+Boolean: is_merit = average >= 85
+
+Output: Display formatted result with average and 
+merit eligibility.
+
+Input:
+Enter marks for Subject 1: 90
+Enter marks for Subject 2: 87.5
+Enter marks for Subject 3: 80
+
+Output:
+----- Student Performance Report -----
+Average Marks : 85.83
+Merit Eligible: True

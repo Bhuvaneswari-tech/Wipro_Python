@@ -1,0 +1,24 @@
+Challenge 1: Smart Utility Billing System
+Scenario:
+You are developing a billing script for a power company. 
+The program should calculate the total bill after applying a 
+usage surcharge, check for high-consumption customers, and verify 
+service alert flags using bitwise operations.
+
+Requirements & Logic:
+Input & Initialization:
+Base_Units = 350
+Rate_Per_Unit = 5.75
+Service_Flags = 9 (binary 1001 → multiple conditions)
+
+Arithmetic and Casting:
+Total_Cost = Base_Units * Rate_Per_Unit
+If Base_Units > 300, apply 10% surcharge → Total_Cost *= 1.10
+Convert final float to integer (truncate) → Final_Bill_Int
+
+Logical & Bitwise Operations:
+is_High_Usage = Base_Units > 300
+Service_Alert = (Service_Flags & 1) != 0
+
+Output:
+Print total cost, final bill, usage status, and service alert.

@@ -1,0 +1,23 @@
+Challenge 2: Employee Payroll Bonus Script
+Scenario:
+An HR department wants to calculate an employee’s final salary after tax and bonus, 
+check bonus eligibility, and verify attendance record bits.
+
+Requirements & Logic:
+Input & Initialization:
+Base_Salary = 60000.0
+Tax_Percent = 10
+Attendance_Flags = 6 (binary 110)
+
+Arithmetic & Casting:
+Net_Salary = Base_Salary - (Base_Salary * Tax_Percent / 100)
+Apply a 5% loyalty bonus → Bonus_Salary = Net_Salary * 1.05
+Truncate to integer → Final_Salary_Int
+
+Logical & Bitwise Operations:
+Eligible_for_Bonus = Base_Salary > 50000 and True 
+Perfect_Attendance = (Attendance_Flags & 2) != 0
+
+
+Output:
+Print final salary, bonus eligibility, attendance flag.
